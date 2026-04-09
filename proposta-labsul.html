@@ -310,7 +310,7 @@
     }
     .conditions-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 12px;
       margin-top: 16px;
     }
@@ -496,10 +496,7 @@
         <span>Cliente</span>
         <span>Rodrigo Marques — LabSul</span>
       </div>
-      <div class="meta-item">
-        <span>Validade</span>
-        <span>15 dias</span>
-      </div>
+
       <div class="meta-item">
         <span>Entrega estimada</span>
         <span>7 a 10 dias</span>
@@ -536,8 +533,8 @@
     <div class="plan-card">
       <div class="plan-header">
         <div class="plan-tag">Plano Essencial</div>
-        <div class="plan-name">Site + Atualização IA</div>
-        <div class="plan-subtitle">Você pede, a IA atualiza</div>
+        <div class="plan-name">Site</div>
+        <div class="plan-subtitle">Completo e personalizado</div>
       </div>
 
       <div class="plan-price-area">
@@ -560,13 +557,7 @@
             <span class="feature-desc">Todas as páginas mapeadas no seu briefing</span>
           </div>
         </div>
-        <div class="feature-item">
-          <div class="feature-icon">🤖</div>
-          <div>
-            <span class="feature-label">Atualização via IA colaborativa</span>
-            <span class="feature-desc">Você vira colaborador do projeto e pede alterações direto para a IA — ela executa</span>
-          </div>
-        </div>
+
         <div class="feature-item">
           <div class="feature-icon">✓</div>
           <div>
@@ -619,19 +610,17 @@
     <!-- PLANO PLUS -->
     <div class="plan-card featured">
       <div class="plan-header">
-        <div class="plan-tag">⭐ Mais completo</div>
-        <div class="plan-name">Site + IA no Site + Atualização IA</div>
-        <div class="plan-subtitle">Assistente de IA treinado sobre o LabSul</div>
+        <div class="plan-tag">⭐ Plano Plus</div>
+        <div class="plan-name">Site + Agente de IA Integrado</div>
+        <div class="plan-subtitle">Agente IA treinado sobre o LabSul</div>
       </div>
 
       <div class="plan-price-area">
         <div class="price-from">Investimento único</div>
         <div class="price-main">
           <span class="price-currency">R$</span>
-          <span class="price-value">1.697</span>
+          <span class="price-value">2.000</span>
         </div>
-        <div class="price-notes">ou 12× de R$ 141,41 no cartão</div>
-        <div class="price-pix">✓ R$ 1.527 no PIX (10% off)</div>
       </div>
 
       <div class="plan-divider" style="background:#E2E8E4"></div>
@@ -642,8 +631,8 @@
         <div class="feature-item">
           <div class="feature-icon">🤖</div>
           <div>
-            <span class="feature-label">Assistente de IA no site</span>
-            <span class="feature-desc">Chatbot interativo para visitantes e pesquisadores</span>
+            <span class="feature-label">Agente de IA Integrado</span>
+            <span class="feature-desc">Inteligência Artificial avançada, treinada com todo o contexto do seu projeto para oferecer recomendações, interagir e sanar dúvidas de visitantes e pesquisadores em tempo real.</span>
           </div>
         </div>
         <div class="feature-item">
@@ -671,7 +660,7 @@
           <div class="feature-icon">✓</div>
           <div>
             <span class="feature-label">Tudo do Plano Essencial incluso</span>
-            <span class="feature-desc">Site + atualização via IA + design + acervo + galeria</span>
+            <span class="feature-desc">Site + design + acervo + galeria</span>
           </div>
         </div>
       </div>
@@ -736,8 +725,15 @@
         <div class="manut-label">Plano Colaborador</div>
         <div class="manut-nome">Você atualiza via IA</div>
       </div>
-      <div class="manut-header">
-        <div class="manut-preco">R$ 200 <small>/mês</small></div>
+      <div class="manut-header" style="flex-direction: column; align-items: stretch; gap: 12px; padding-top: 8px;">
+        <div style="background: #f9f9f9; padding: 10px 14px; border-radius: 8px;">
+          <div style="font-size: 10px; font-weight: 700; text-transform: uppercase; color: #777; margin-bottom: 2px;">Plano Essencial</div>
+          <div class="manut-preco" style="font-size: 22px;">R$ 200 <small>/mês</small></div>
+        </div>
+        <div style="background: #FFFBEB; padding: 10px 14px; border-radius: 8px; border-left: 3px solid var(--ambar);">
+          <div style="font-size: 10px; font-weight: 700; text-transform: uppercase; color: #b45309; margin-bottom: 2px;">Plano Plus (com Agente de IA Integrado)</div>
+          <div class="manut-preco" style="font-size: 22px;">R$ 400 <small>/mês</small></div>
+        </div>
       </div>
       <div class="manut-desc">
         Você vira colaborador do projeto e faz todas as atualizações conversando com a IA. Inclui domínio, hospedagem e suporte técnico.
@@ -755,8 +751,15 @@
         <div class="manut-label">Plano Gerenciado</div>
         <div class="manut-nome">A gente atualiza por você</div>
       </div>
-      <div class="manut-header">
-        <div class="manut-preco">R$ 500 <small>/mês</small></div>
+      <div class="manut-header" style="flex-direction: column; align-items: stretch; gap: 12px; padding-top: 8px;">
+        <div style="background: #f9f9f9; padding: 10px 14px; border-radius: 8px;">
+          <div style="font-size: 10px; font-weight: 700; text-transform: uppercase; color: #777; margin-bottom: 2px;">Plano Essencial</div>
+          <div class="manut-preco" style="font-size: 22px;">R$ 500 <small>/mês</small></div>
+        </div>
+        <div style="background: #FFFBEB; padding: 10px 14px; border-radius: 8px; border-left: 3px solid var(--ambar);">
+          <div style="font-size: 10px; font-weight: 700; text-transform: uppercase; color: #b45309; margin-bottom: 2px;">Plano Plus (com Agente de IA Integrado)</div>
+          <div class="manut-preco" style="font-size: 22px;">R$ 700 <small>/mês</small></div>
+        </div>
       </div>
       <div class="manut-desc">
         Prefere focar só no conteúdo? Você nos manda o que precisa — texto, foto, ajuste — e nossa equipe aplica para você.
@@ -776,14 +779,9 @@
   <div class="conditions-card">
     <div class="conditions-grid">
       <div class="condition-item">
-        <span class="condition-icon">💳</span>
-        <div class="condition-title">Cartão de Crédito</div>
-        <div class="condition-desc">Parcelamento em até <span class="blue">12× sem juros</span></div>
-      </div>
-      <div class="condition-item">
         <span class="condition-icon">⚡</span>
         <div class="condition-title">PIX</div>
-        <div class="condition-desc"><span class="green">10% de desconto</span> no pagamento à vista</div>
+        <div class="condition-desc">Pagamento à vista na solicitação/aprovação da proposta</div>
       </div>
       <div class="condition-item">
         <span class="condition-icon">🔄</span>
@@ -792,7 +790,7 @@
       </div>
     </div>
     <div class="tip-box">
-      💡 <strong>Dica:</strong> O Plano Plus sai apenas <strong>R$ 200 a mais</strong> que o Essencial — e entrega um assistente de IA treinado com o acervo do LabSul visível no próprio site, respondendo dúvidas de estudantes e pesquisadores 24h por dia. Para um projeto de extensão com foco em pesquisa e difusão cultural, isso multiplica o alcance sem demandar mais tempo seu.
+      💡 <strong>Dica:</strong> O Plano Plus sai apenas <strong>R$ 300 a mais</strong> que o Essencial — e entrega um agente IA treinado com o acervo do LabSul visível no próprio site, respondendo dúvidas de estudantes e pesquisadores 24h por dia. Para um projeto de extensão com foco em pesquisa e difusão cultural, isso multiplica o alcance sem demandar mais tempo seu.
     </div>
   </div>
 
@@ -873,7 +871,7 @@
 <div class="footer">
   <p>Proposta desenvolvida com base no briefing preenchido por <strong>Rodrigo de Albuquerque Marques</strong>.</p>
   <p>Laboratório de Formação em Cultura Popular Nordestina e Ibérica — UECE / Feclesc, Quixadá.</p>
-  <p style="margin-top:6px">Valores válidos por <strong>15 dias</strong> a partir da data de envio.</p>
+
 </div>
 
 </body>
